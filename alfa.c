@@ -47,19 +47,8 @@ int main(){
 	  else
 		{printf("Errore allocazione memoria");
 		}
+	}
 
-	 cur = head;
-	 printf("a");
- while(cur->next != NULL)
-        {cur = cur->next;
-        }
-	 printf("b");
- while(cur->prev != head)
-        {printf("%s", cur->str);
-         free(cur->next);
-         cur = cur->prev;
-        }
-	};
  cur = head;
  while(cur->next != NULL)
 	{cur = cur->next;
